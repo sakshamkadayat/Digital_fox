@@ -1,0 +1,35 @@
+/* login page css */
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: gainsboro;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 45%;
+    box-shadow: 11px 12px 13px 12px rgb(208, 208, 208);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  } 
+
+  .link{
+      font-size: 15px;
+      font-weight: 200;
+  }
