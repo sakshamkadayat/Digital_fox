@@ -16,15 +16,16 @@ export function Routing() {
       <BrowserRouter>
         <Routes>
           <Route>
-          <Route path="/" element={<Out></Out>}>
-           <Route path="/home" element={<Home></Home>}></Route>
-           <Route path="/product" element={<Product></Product>}></Route>
-           <Route path="/about" element={<About></About>}></Route>
-           <Route path="/contact" element={<Contact></Contact>}></Route>
-           <Route path="/login" element={<Login></Login>}></Route>
-           <Route path="/register" element={<Register></Register>}></Route>
-           <Route path="/cart" element={<Cart></Cart>}></Route>
-           </Route>
+            <Route path="/" element={<Out></Out>}>
+              <Route path="/" element={<Home></Home>}></Route>
+              <Route path="/home" element={<Home></Home>}></Route>
+              <Route path="/product" element={<Product></Product>}></Route>
+              <Route path="/about" element={<About></About>}></Route>
+              <Route path="/contact" element={<Contact></Contact>}></Route>
+              <Route path="/login" element={<Login></Login>}></Route>
+              <Route path="/register" element={<Register></Register>}></Route>
+              <Route path="/cart" element={<Cart></Cart>}></Route>
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>

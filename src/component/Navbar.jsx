@@ -37,9 +37,6 @@ const Navbar = () => {
               <i className="fa fa-shopping-cart me-1">  Cart(0)</i>
             </a>
 
-
-
-
           </div>
         </div>
       </div>
